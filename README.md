@@ -28,15 +28,22 @@
 ├── analysis.py              # DiD, OLS, KDE, Urban/Rural, Chuyên school, Province merger
 ├── causal_ml.py             # RDD, Double ML, HTE, Bootstrap
 ├── fraud_detection.py       # Anomaly detection 2026 (Z-score, KL divergence)
+├── cluster_cheat_detection.py       # K-Window sliding (consecutive SBD, high scores)
+├── clustering_detection.py          # DBSCAN multi-subject (spatial + score alignment)
 ├── synthetic_control.py     # Synthetic Control, EconML (LinearDML/CausalForestDML),
 │                            #   Rosenbaum Bounds, Monte Carlo sensitivity
 ├── dowhy_refutation.py      # DoWhy DAG + refutation tests (placebo, RCC, subset)
 ├── province_mapping.py      # Crosswalk 63 → 34 tỉnh (sáp nhập 2025)
-├── figures/                 # 31 figures (git LFS)
-└── report/                  # 11 chapters + FULL_REPORT.md
+├── figures/                 # 35+ figures (git LFS)
+└── report/                  # 12 chapters + FULL_REPORT.md
     ├── index.md
-    ├── FULL_REPORT.md
-    └── 01_data_overview.md … 11_conclusions.md
+    └── _chapters/
+        ├── 00_executive_summary.md
+        ├── 01_data_context.md
+        ├── ...
+        ├── 11_conclusions.md
+        ├── 12_clustering_fraud_detection.md
+        └── FULL_REPORT.md
 ```
 
 ---
@@ -138,8 +145,8 @@ Không có học sinh nào có CATE > 0 (CausalForest, n=200k).
 
 ## Báo cáo
 
-- **[FULL_REPORT.md](report/FULL_REPORT.md)** — Báo cáo tổng hợp toàn bộ
-- **[report/index.md](report/index.md)** — Mục lục 11 chương
+- **[report/index.md](report/index.md)** — Mục lục 12 chương
+- **[report/_chapters/FULL_REPORT.md](report/_chapters/FULL_REPORT.md)** — Báo cáo tổng hợp toàn bộ
 
 ---
 

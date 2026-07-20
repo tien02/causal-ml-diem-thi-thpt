@@ -9,17 +9,19 @@
 
 | # | Chủ đề | File |
 |---|--------|------|
-| 1 | Tổng quan dữ liệu & Phương pháp | [01_data_overview.md](01_data_overview.md) |
-| 2 | Cú sốc COVID — Tác động ngoại sinh | [02_covid_impact.md](02_covid_impact.md) |
-| 3 | Khoảng cách Đô thị / Nông thôn | [03_urban_rural.md](03_urban_rural.md) |
-| 4 | Hiệu ứng Trường Chuyên | [04_chuyen_school.md](04_chuyen_school.md) |
-| 5 | Tác động Chính sách Địa phương | [05_local_policy.md](05_local_policy.md) |
-| 6 | Chương trình 2018 — Có giúp điểm tốt hơn? | [06_curriculum_2018.md](06_curriculum_2018.md) |
-| 7 | Sáp nhập Tỉnh 2025 — Tác động dữ liệu | [07_province_merger.md](07_province_merger.md) |
-| 8 | Phát hiện Gian lận — Anomaly Detection 2026 | [08_fraud_detection.md](08_fraud_detection.md) |
-| 9 | Causal ML — RDD, Double ML, HTE, Bootstrap | [09_causal_ml.md](09_causal_ml.md) |
-| 10 | Synthetic Control, EconML & Monte Carlo Sensitivity | [10_synthetic_control.md](10_synthetic_control.md) |
-| 11 | Kết luận Tổng hợp & Hàm ý Chính sách | [11_conclusions.md](11_conclusions.md) |
+| 0 | Tóm tắt Điều hành | [_chapters/00_executive_summary.md](_chapters/00_executive_summary.md) |
+| 1 | Bối cảnh Dữ liệu & Sáp nhập Tỉnh | [_chapters/01_data_context.md](_chapters/01_data_context.md) |
+| 2 | Cú sốc COVID — Tác động ngoại sinh | [_chapters/02_covid_impact.md](_chapters/02_covid_impact.md) |
+| 3 | Khoảng cách Đô thị / Nông thôn | [_chapters/03_urban_rural.md](_chapters/03_urban_rural.md) |
+| 4 | Hiệu ứng Trường Chuyên | [_chapters/04_chuyen_school.md](_chapters/04_chuyen_school.md) |
+| 5 | Tác động Chính sách Địa phương | [_chapters/05_local_policy.md](_chapters/05_local_policy.md) |
+| 6 | Chương trình 2018 — Có giúp điểm tốt hơn? | [_chapters/06_curriculum_2018.md](_chapters/06_curriculum_2018.md) |
+| 7 | Sáp nhập Tỉnh 2025 — Tác động dữ liệu | [_chapters/07_province_merger.md](_chapters/07_province_merger.md) |
+| 8 | Phát hiện Gian lận — Anomaly Detection 2026 | [_chapters/08_fraud_detection.md](_chapters/08_fraud_detection.md) |
+| 9 | Causal ML — RDD, Double ML, HTE, Bootstrap | [_chapters/09_causal_ml.md](_chapters/09_causal_ml.md) |
+| 10 | Synthetic Control, EconML & Monte Carlo Sensitivity | [_chapters/10_synthetic_control.md](_chapters/10_synthetic_control.md) |
+| 11 | Kết luận Tổng hợp & Hàm ý Chính sách | [_chapters/11_conclusions.md](_chapters/11_conclusions.md) |
+| 12 | Clustering Cheat Detection — K-Window & DBSCAN 2026 | [_chapters/12_clustering_fraud_detection.md](_chapters/12_clustering_fraud_detection.md) |
 
 ---
 
