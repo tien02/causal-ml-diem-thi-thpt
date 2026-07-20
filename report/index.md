@@ -22,6 +22,7 @@
 | 10 | Synthetic Control, EconML & Monte Carlo Sensitivity | [_chapters/10_synthetic_control.md](_chapters/10_synthetic_control.md) |
 | 11 | Kết luận Tổng hợp & Hàm ý Chính sách | [_chapters/11_conclusions.md](_chapters/11_conclusions.md) |
 | 12 | Clustering Cheat Detection — K-Window & DBSCAN 2026 | [_chapters/12_clustering_fraud_detection.md](_chapters/12_clustering_fraud_detection.md) |
+| 13 | Monte Carlo Adaptation: CT2018 Learning Curve 2025–2026 | [_chapters/13_monte_carlo_adaptation_2025_2026.md](_chapters/13_monte_carlo_adaptation_2025_2026.md) |
 
 ---
 

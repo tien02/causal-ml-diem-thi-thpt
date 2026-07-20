@@ -1,6 +1,6 @@
 # Chapter 12 — Clustering Cheat Detection — 2026 Anomalies
 
-← [11 Conclusions](11_conclusions.md) | [Index](../index.md)
+← [11 Conclusions](11_conclusions.md) | → [13 Adaptation](13_monte_carlo_adaptation_2025_2026.md) | [Index](../index.md)
 
 ---
 
@@ -239,4 +239,4 @@ Tuyên Quang [8]
 - Chapter 11: Conclusions & policy implications
 - Ester et al. (1996). "A density-based algorithm for discovering clusters in large spatial databases with noise." KDD.
 
-← [11 Conclusions](11_conclusions.md) | [Index](../index.md)
+← [11 Conclusions](11_conclusions.md) | → [13 Adaptation](13_monte_carlo_adaptation_2025_2026.md) | [Index](../index.md)
