@@ -1,2 +1,7 @@
-figures/*.png filter=lfs diff=lfs merge=lfs -text
-*.png filter=lfs diff=lfs merge=lfs -text
+# Data files — use Git LFS
+*.csv filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+# Exclude __MACOSX junk
+GraduationExamScoreProcessing/Results/__MACOSX/** export-ignore
+GraduationExamScoreProcessing/Results/**/*.csv filter=lfs diff=lfs merge=lfs -text
+GraduationExamScoreProcessing/Results/**/*.zip filter=lfs diff=lfs merge=lfs -text
