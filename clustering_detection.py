@@ -30,14 +30,13 @@ import matplotlib.patches as mpatches
 from sklearn.cluster import DBSCAN
 warnings.filterwarnings('ignore')
 
+from config import BASE, OUT
+
 from province_mapping import OLD_TO_NEW_2026, PROVINCE_DISPLAY_2026, FRAUD_ADJACENT_2026
 
 # ─────────────────────────────────────────────
 # Config
 # ─────────────────────────────────────────────
-BASE = '/home/tienda/WorkSpace/HCMUS/PTDLTM/GraduationExamScoreProcessing/Results'
-OUT  = '/home/tienda/WorkSpace/HCMUS/PTDLTM/figures'
-os.makedirs(OUT, exist_ok=True)
 
 SUBJECTS = ['toan', 'van']
 SUBJECTS_2026_SRC = ['toan', 'van', 'ly', 'hoa', 'sinh', 'su', 'dia', 'ngoai ngu']

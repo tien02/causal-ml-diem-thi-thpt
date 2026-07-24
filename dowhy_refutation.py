@@ -20,16 +20,14 @@ import networkx as nx
 
 warnings.filterwarnings('ignore')
 
-sys.path.insert(0, '/home/tienda/WorkSpace/HCMUS/PTDLTM')
+from config import BASE, OUT
+
 from province_mapping import (
     CHUYEN_STRONG_OLD as CHUYEN_STRONG,
     OLD_TO_NEW_2026,
     urban_tier_old,
 )
 
-OUT  = '/home/tienda/WorkSpace/HCMUS/PTDLTM/figures'
-BASE = '/home/tienda/WorkSpace/HCMUS/PTDLTM/GraduationExamScoreProcessing/Results'
-os.makedirs(OUT, exist_ok=True)
 
 try:
     from dowhy import CausalModel

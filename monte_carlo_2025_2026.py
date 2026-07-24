@@ -28,11 +28,10 @@ from sklearn.ensemble import GradientBoostingRegressor
 from sklearn.linear_model import LinearRegression
 
 warnings.filterwarnings('ignore')
+
+from config import BASE, OUT
 from province_mapping import OLD_TO_NEW_2026, urban_tier_old, urban_tier_2026, CHUYEN_STRONG_OLD, CHUYEN_STRONG_2026
 
-BASE = '/home/tienda/WorkSpace/HCMUS/PTDLTM/GraduationExamScoreProcessing/Results'
-OUT  = '/home/tienda/WorkSpace/HCMUS/PTDLTM/figures'
-os.makedirs(OUT, exist_ok=True)
 
 SUBJECTS = ['toan', 'nguvan', 'ngoaingu', 'vatly', 'hoahoc', 'sinhhoc', 'lichsu', 'dialy', 'gdcd']
 np.random.seed(42)

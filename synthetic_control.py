@@ -27,7 +27,8 @@ from sklearn.preprocessing import StandardScaler
 
 warnings.filterwarnings('ignore')
 
-sys.path.insert(0, '/home/tienda/WorkSpace/HCMUS/PTDLTM')
+from config import BASE, OUT
+
 from province_mapping import (
     PROVINCE_NAMES_OLD as PROVINCE_NAMES,
     CHUYEN_STRONG_OLD as CHUYEN_STRONG,
@@ -37,9 +38,6 @@ from province_mapping import (
     get_name_2026,
 )
 
-OUT  = '/home/tienda/WorkSpace/HCMUS/PTDLTM/figures'
-BASE = '/home/tienda/WorkSpace/HCMUS/PTDLTM/GraduationExamScoreProcessing/Results'
-os.makedirs(OUT, exist_ok=True)
 
 ECONML_AVAILABLE = False
 try:

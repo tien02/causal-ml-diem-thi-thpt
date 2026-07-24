@@ -11,6 +11,13 @@ Causal Inference Analysis — Vietnam National High School Exam Scores (2021–2
 - ~3GB disk space (raw CSV + outputs)
 - Enough RAM for large dataframes (~8GB recommended)
 
+### Device-Agnostic Setup
+
+Code uses **relative paths** via `config.py` — works on **any device/OS**:
+- No hardcoded `/home/tienda/...` paths
+- All paths relative to project root
+- Just clone the repo anywhere and run
+
 ### Install Dependencies
 
 ```bash

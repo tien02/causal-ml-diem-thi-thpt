@@ -32,12 +32,11 @@ from province_mapping import (
     PROVINCE_DISPLAY_2026,
     FRAUD_ADJACENT_2026,
 )
+from config import BASE, OUT
 
 # ─────────────────────────────────────────────
-# Paths
+# Paths initialized from config
 # ─────────────────────────────────────────────
-BASE = '/home/tienda/WorkSpace/HCMUS/PTDLTM/GraduationExamScoreProcessing/Results'
-OUT  = '/home/tienda/WorkSpace/HCMUS/PTDLTM/figures'
 os.makedirs(OUT, exist_ok=True)
 
 # ─────────────────────────────────────────────

@@ -28,14 +28,11 @@ from province_mapping import (
     urban_tier_old, urban_tier_2026,
     get_name_old, get_name_2026,
 )
-
-OUT = '/home/tienda/WorkSpace/HCMUS/PTDLTM/figures'
-import os; os.makedirs(OUT, exist_ok=True)
+from config import BASE, OUT
 
 # ─────────────────────────────────────────────
 # Data loading
 # ─────────────────────────────────────────────
-BASE = '/home/tienda/WorkSpace/HCMUS/PTDLTM/GraduationExamScoreProcessing/Results'
 
 def load_2021():
     df = pd.read_csv(f'{BASE}/Diemthi2021.csv', dtype={'SBD': str, 'Cum_thi': str})
