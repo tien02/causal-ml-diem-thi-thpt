@@ -84,8 +84,11 @@ Data (5.38M records)
 
 ---
 
-## Yêu cầu
+## Yêu cầu & Hướng dẫn cài đặt
 
+👉 **[SETUP.md](SETUP.md)** — Chi tiết chuẩn bị dữ liệu và chạy phân tích
+
+Tóm tắt nhanh:
 ```bash
 pip install pandas numpy matplotlib seaborn scipy scikit-learn
 pip install econml dowhy networkx
@@ -105,7 +108,7 @@ python synthetic_control.py  # SCM + EconML + sensitivity
 python dowhy_refutation.py   # DoWhy DAG + refutation
 ```
 
-Figures ghi vào `figures/`.
+Figures ghi vào `figures/`. Xem **[SETUP.md](SETUP.md)** để chi tiết về output mỗi script.
 
 ---
 
