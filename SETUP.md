@@ -4,12 +4,28 @@ Causal Inference Analysis — Vietnam National High School Exam Scores (2021–2
 
 ---
 
-## 1. Prerequisites
+## 1. Quick Start (Zero Effort)
+
+**Fastest way to get running:**
+
+```bash
+git clone <repo-url> ~/ptdltm
+cd ~/ptdltm
+./setup.sh          # Installs dependencies + verifies data
+python analysis.py  # Run analysis
+```
+
+The `setup.sh` script handles everything — Python check, dependencies, data validation.
+
+---
+
+## 2. Prerequisites
 
 ### System Requirements
 - Python 3.9+
 - ~3GB disk space (raw CSV + outputs)
 - Enough RAM for large dataframes (~8GB recommended)
+- **git-lfs** for automatic data download (optional but recommended)
 
 ### Device-Agnostic Setup
 
@@ -18,7 +34,28 @@ Code uses **relative paths** via `config.py` — works on **any device/OS**:
 - All paths relative to project root
 - Just clone the repo anywhere and run
 
-### Install Dependencies
+### Install git-lfs (Recommended)
+
+Large data files (~230MB) are managed via **Git LFS**. Install first:
+
+**Linux:**
+```bash
+apt install git-lfs
+git lfs install
+```
+
+**macOS:**
+```bash
+brew install git-lfs
+git lfs install
+```
+
+**Windows:**
+Download from https://git-lfs.github.com
+
+### Install Python Dependencies
+
+Manual install (or run `./setup.sh`):
 
 ```bash
 pip install -q pandas numpy matplotlib seaborn scipy scikit-learn

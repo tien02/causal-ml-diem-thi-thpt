@@ -86,13 +86,14 @@ Data (5.38M records)
 
 ## Yêu cầu & Hướng dẫn cài đặt
 
-👉 **[SETUP.md](SETUP.md)** — Chi tiết chuẩn bị dữ liệu và chạy phân tích
+### ⚡ Cách nhanh nhất (0 effort)
 
-Tóm tắt nhanh:
 ```bash
-pip install pandas numpy matplotlib seaborn scipy scikit-learn
-pip install econml dowhy networkx
+./setup.sh          # Cài đặt dependencies + kiểm tra dữ liệu
+python analysis.py  # Chạy phân tích
 ```
+
+👉 **[SETUP.md](SETUP.md)** — Chi tiết đầy đủ (cài đặt, hướng dẫn, khắc phục sự cố)
 
 **Dữ liệu:** Đặt file CSV vào `GraduationExamScoreProcessing/Results/<năm>/`. Nguồn: [tien02/GraduationExamScoreProcessing](https://github.com/tien02/GraduationExamScoreProcessing).
 
