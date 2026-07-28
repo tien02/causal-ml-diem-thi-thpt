@@ -29,6 +29,7 @@ from province_mapping import (
     get_name_old, get_name_2026,
 )
 from config import BASE, OUT
+from gdp_province import add_grdp_column
 
 # ─────────────────────────────────────────────
 # Data loading
@@ -110,6 +111,7 @@ for year, df in dfs.items():
         df['urban_tier']         = df['province'].apply(lambda p: urban_tier_old(int(p)) if pd.notna(p) else 'Unknown')
         df['is_chuyen_province'] = df['province'].apply(lambda p: int(p) in CHUYEN_STRONG if pd.notna(p) else False)
         df['province_harmonized'] = df['province'].map(OLD_TO_NEW_2026)
+    add_grdp_column(df, year)
     df['khoi_A'] = df[['toan','vatly','hoahoc']].sum(axis=1, min_count=3)
     df['khoi_C'] = df[['nguvan','lichsu','dialy']].sum(axis=1, min_count=3)
     df['khoi_D'] = df[['toan','nguvan','ngoaingu']].sum(axis=1, min_count=3)

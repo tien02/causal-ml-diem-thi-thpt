@@ -276,4 +276,4 @@ Monitor 2027 data. If urban-rural gap continues widening, target rural teacher p
 - Chapter 11: Rosenbaum bounds methodology
 - Rosenbaum, P. R. (2002). "Observational Studies." 2nd ed. Springer.
 
-← [12 Clustering Detection](12_clustering_fraud_detection.md) | [Index](../index.md)
+← [12 Clustering Detection](12_clustering_fraud_detection.md) | → [14 Kinh tế Tỉnh](14_province_gdp_analysis.md) | [Index](../index.md)
